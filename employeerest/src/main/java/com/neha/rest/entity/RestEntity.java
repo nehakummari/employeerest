@@ -11,7 +11,7 @@ public class RestEntity {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int rid;
+	private Integer rid;
 	private String rname;
 	private String rdesig;
 	private Long rsal;
